@@ -1,0 +1,31 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Using Diff or FC showed me the lines that were different and made it easier to find errors
+However I still had to compare the lines to see what the actual difference was
+Having something that would identify the specific difference would make it even easier
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+As I program I try different things, sometimes these things could be useful in another program but may get removed or edited in the final version
+In addition if I find bugs in future releases I can compare to a time when the bug didn't exist.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros: Meaningful commits, opportunity to comment
+Cons: Could forget all changes, forget to save, a crash may require full duplication of work
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Many projects have inter-related files, some of these files will have changes that are related and therefore commiting all files as one commit keeps the system clean and allows for diff to be performed against multiple files to get a full view of the change
+Google Docs does not enable this though it would be nice at times.  However often when editing a document there is just one document so this feature would not be needed
+
+How can you use the commands git log and git diff to view the history of files?
+Git log provides a full history of changes by ID and description
+Git diff allows me to select 2 items in the log and compare the changes between those 2 versions.  git diff old_commit new_commit
+
+How might using version control make you more confident to make changes that could break something?
+By having previous versions you can make changes with confidence by knowing you have a "known good" config to go back to
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to organize some of my previous projects
+I would also like to better understand how Git is synced with online...
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Having small changes committed is the first step, when identifying the version that had the error I could then compare the little code that changed and even if I didn't understand the program I could get an idea of what might have caused the issue.
+
